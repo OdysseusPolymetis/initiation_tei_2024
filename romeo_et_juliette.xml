@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Roméo et Juliette</title>
+        <author key="Shakespeare"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>ENS de Lyon</edition>
+        <respStmt>
+          <name>Loyse Noël</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ENS de Lyon</publisher>
+        <date when="2021"/>
+        <idno>avare.odt</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Dégénérescence. Fin de siècle, le mysticisme. L’égotisme, le réalisme, le vingtième
+          siècle</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1597"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div>
+        <head>ROMEO ET JULIETTE</head>
+        <p>Liste des personnages</p>
+        <castList>
+          <castItem xml:id="samson">Samson</castItem>
+          <castItem xml:id="gregore">Gregore</castItem>
+          <castItem xml:id="abram">Abram</castItem>
+          <castItem xml:id="benvolio">Benvolio</castItem>
+          <castItem xml:id="tybalt">Tybalt</castItem>
+        </castList>
+      </div>
+      <div type="act">
+        <head>ACTE PREMIER.</head>
+        
+        <div type="scene">
+          <head>SCENE I.</head>
+          <stage>Une place publique.</stage>
+          <stage>SAMSON ET GREGORE, armés d’épées et de boucliers.</stage>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Ma parole d’honneur, Grégoire, ce ne sera pas à nous qu’on fera porter du
+              charbon!</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Non, car cela serait un peu lourd pour nos épaules.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Si l’on me met en colère, je tire...</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Tire-toi d’affaire, et gare ton cou du carcan, aussi longtemps que tu
+            vivras.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Je frappe vite, quand je m’y mets.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Oui, mais tu ne le mets pas vite à frapper.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker><p>Vienne un chien de la maison de
+              Montague, et tu verras si je m’y mets!</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Si tu te met à quoi? A te sauver? Celui qui est brave ne se met à rien du tout ; il
+              tient son terrain ferme, sans bouger.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>C'est justement cela. Vienne un chien de Montague, et...</p>
+            <stage>(Montrant du doigt le sol devant lui, puis se retirant d’un autre côté.) </stage>
+            <p>Et je tiens ferme mon terrain... si je m’y mets. Les Montagues, homme ou femme, je
+              les jette tous au beau milieu du chemin.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Preuve d’infériorité; car dans les rues, c’est le milieu du pavé que prennent, chez
+              nous, les gens comme il faut, le côté du mur est pour les plus faibles.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>C'est vrai. Les femmes, n’est-ce pas? sont les plus faibles. Les hommes done, je leur
+              défends de se mettre au pied du mur, et les femmes, je les y mets.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>La querelle ne regarde que nos maîtres, et nous qui sommes leurs hommes.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Hommes ou femmes, c’est la même chose, et je veux être un tyran. Gare aux Montagues !
+              Je me bats avec les hommes; et les femmes... Je ne le dis que cela.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>C'est-à-dire que tu ne me dis rien.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Devine.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Je le demanderai à celles que tu auras rencontrées.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Elles te répondront; c’est bien connu qu’avec elles, je ne suis pas sans
+            mérite.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Du mérite! Si tu étais un poisson, vaudrais-tu mieux qu’un merlan? Flamberge au vent!
+              Voici deux hommes de la maison des Montagues.</p>
+            <stage>(Entrent Abram et Balthasar.)</stage></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>L'épée nue! J'y suis. Querelle-les, et tu peux compter...</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Que tu tourneras les talons?</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>N’aie pas peur.</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Sois tranquille; je n’ai pas grand peur de toi.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Ayons la loi de notre côté, et laissons les commencer,</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Je froncerai les sourcils en passant devant eux, ils prendront cela comme ils le
+              voudront.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Comme ils l’oseront. Moi, je me mords le pouce en les regardant; une injure pour eux,
+              s’ils le supportent.</p></sp>
+          <sp who="abram"><speaker>ABRAM.</speaker>
+            <p>Est-ce à notre adresse, Monsieur, que vous faites ce mouvement-là ?</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Je me mords le pouce, Monsieur.</p></sp>
+          <sp who="abram"><speaker>ABRAM.</speaker>
+            <p>Est-ce pour nous arguer, Monsieur ?</p></sp>
+          <sp who="samson"><speaker>SAMSON</speaker>
+            <stage> à Grégoire.</stage>
+            <p>Aurons-nous la loi de notre côté si je réponds oui</p></sp>
+          <sp who="gregore"><speaker>GREGORE.</speaker>
+            <p>Non.</p></sp>
+          <sp who="samson"><speaker>SAMSON, </speaker>
+            <stage>à Abram.</stage>
+            <p>Non, Monsieur, ce n’est pas pour vous narguer. Mais je me mords le pouce.</p></sp>
+          <sp who="gregore"><speaker>GREGORE, </speaker>
+            <stage>au même.</stage>
+            <p>Est-ce que par hasard, Monsieur, vous nous chercheriez querelle?</p></sp>
+          <sp who="abram"><speaker>ABRAM.</speaker>
+            <p>Querelle, Monsieur ? Non, Monsieur.</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Si vous le faites, Monsieur, je suis votre homme. Je sers un maître qui vaut bien le
+              vôtre.</p></sp>
+          <sp who="abram"><speaker>ABRAM.</speaker>
+            <p>Diriez-vous donc qu’il vaut mieux</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker><p>Je ne dis ni oui ni non.</p>
+            <stage>(Entre Benvolio, au fond du théâtre.)</stage>
+            <p> Roi, après avoir regardé vers une des rues latérales. Dis oui. Voici venir un des parents de mon maître.</p></sp>
+          <sp who="samson"><speaker>SAMSON, </speaker>
+            <stage>à Abram.</stage>
+            <p>Mais cependant, Monsieur, il vaut mieux.</p></sp>
+          <sp who="abram"><speaker>ABRAM.</speaker>
+            <p>Vous mentez</p></sp>
+          <sp who="samson"><speaker>SAMSON.</speaker>
+            <p>Dégainez, si vous êtes des hommes. Grégoire, souviens-toi de ta fameuse estocade.</p>
+            <stage>(Ils se battent.)</stage></sp>
+          <sp who="benvolio"><speaker>BENVOLIO.</speaker>
+            <p>Séparez-vous, insensés; arrière vos épées ! Vous ne savez ce que vous faites.</p>
+            <stage>(Il rabat de son épée les épées des combattants.)</stage>
+            <stage>(Entre Tybalt, par la rue vers laquelle Grégoire avait regardé.)</stage></sp>
+          <sp who="tybalt"><speaker>TYBALT.</speaker>
+            <p>Lui, parmi ces valets, je l’y prends, l’arme nue! Sachez, Benvolio, que votre heure
+              est venue.</p></sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

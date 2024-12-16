@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Phèdre</title>
+        <author key="Racine"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>ENS de Lyon</edition>
+        <respStmt>
+          <name>Marion BEAUCOUSIN--HANTZBERG</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ENS de Lyon</publisher>
+        <date when="2021"/>
+        <idno>phedre.odt</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Théâtre, Classique, Passions, Mythe, Phèdre, XVIIe siècle</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1866"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>PHEDRE.</head>
+        <p>PERSONNAGES</p>
+        <castList>
+          <castItem xml:id="hippolyte">HIPPOLYTE, fils de Thésée</castItem>
+          <castItem xml:id="theramene">THÉRAMENE, compagnon d’Hippolyte</castItem>
+        </castList>
+      </div>
+      <div type="act">
+        <head>ACTE PREMIER.</head>
+        <div type="scene">
+          <head>SCENE PREMIERE.</head>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Le dessein en est pris, je pars, cher Théramène,</l>
+          <l>Et quitte le séjour de l’aimable Trézène.</l>
+          <l>Dans le doute mortel dont je suis agité,</l>
+          <l>Je commence à rougir de mon oisiveté.</l>
+          <l>Depuis plus de six mois, éloigné de mon père,</l>
+          <l>J'ignore le destin d’une tête si chère</l>
+          <l>J'ignore jusqu’aux lieux qui le peuvent cacher.</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>Et dans quels lieux, seigneur, l’allez-vous donc cherche</l>
+          <l>Déjà, pour satisfaire à votre juste crainte,</l>
+          <l>J'ai couru les deux mers qui séparent Corinthe ;</l>
+          <l>J'ai demandé Thésée aux peuples de ces bords</l>
+          <l>Où l’on voit l’Achéron se perdre chez les morts.</l>
+          <l>J'ai visité l’Elide; et, laissant le Ténare,</l>
+          <l>Passé jusqu’à la mer qui vit tomber Icare.</l>
+          <l>Sur quel espoir nouveau; dans quels heureux climats,</l>
+          <l>Croyez-vous découvrir la trace de ses pas?</l>
+          <l>Qui sait même, qui sait si le roi votre père</l>
+          <l>Veut que de son absence on sache le mystère ?</l>
+          <l>Et si, lorsqu’avec vous nous tremblons pour ses jours,</l>
+          <l>Tranquille et nous cachant de nouvelles amours,</l>
+          <l>Ce héros n’attend point qu’une amante abusée…</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Cher Théramène, arrête, et respecte Thésée.</l>
+          <l>De ses jeunes erreurs désormais revenu,</l>
+          <l>Par un indigne obstacle il n’est point retenu;</l>
+          <l>Et fixant de ses vœux l’inconstance fatale,</l>
+          <l>Phèdre depuis longtemps ne craint point de rivale.</l>
+          <l>Enfin, en le cherchant, je suivrai mon devoir,</l>
+          <l>Et je fuirai ces lieux que je n’ose plus voir.</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>Eh! depuis quand, seigneur, craignez-vous la présence</l>
+          <l>De ces paisibles lieux, si chers à votre enfance,</l>
+          <l>Et dont je vous ai vu préférer le séjour</l>
+          <l>Au tumulte pompeux d’Athène et de la cour?</l>
+          <l>Quel péril, ou plutôt quel chagrin vous en chasse ?</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Cet heureux temps n’est plus. Tout a changé de face</l>
+          <l>Depuis que sur ces bords les dieux ont envoyé</l>
+          <l>La fille de Minos et de Pasiphaé.</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>J'entends : de vos douleurs la cause m’est connue.</l>
+          <l>Phèdre ici vous chagrine et blesse votre vue.</l>
+          <l>Dangereuse marâtre, à peine elle vous vit,</l>
+          <l>Que votre exil d’abord signala son crédit.</l>
+          <l>Mais sa haine sur vous autrefois attachée,</l>
+          <l>Ou s’est évanouie, ou s’est bien relâchée.</l>
+          <l>Et d’ailleurs, quels périls peut vous faire courir</l>
+          <l>Une femme mourante, et qui cherche à mourir?</l>
+          <l>Phèdre, atteinte d’un mal qu’elle s’obstine à taire,</l>
+          <l>Lasse enfin d’elle-même et du jour qui l’éclaire,</l>
+          <l>Peut-elle contre vous former quelques desseins?</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Sa vaine inimitié n’est pas ce que je crains.</l>
+          <l>Hippolyte en partant fuit une autre ennemie :</l>
+          <l>Je fuis, je l’avoûrai, cette jeune Aricie,</l>
+          <l>Reste d’un sang fatal conjuré contre nous.</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>Quoi ! vous-même, seigneur, la persécutez-vous ?</l>
+          <l>Jamais l’aimable sœur des cruels Pallantides</l>
+          <l>Trempa-t-elle aux complots de ses frères perfides?</l>
+          <l>Et devez-vous haïr ses innocents appas?</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Si je la haïssais, je ne la fuirais pas</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>Seigneur, m’est-il permis d’expliquer votre fuite?</l>
+          <l>Pourriez-vous n’être plus ce superbe Hippolyte,</l>
+          <l>Implacable ennemi des amoureuses lois,</l>
+          <l>Et d’un joug que Thésée a subi tant de fois ?</l>
+          <l>Vénus, par votre orgueil si longtemps méprisée,</l>
+          <l>Voudrait-elle à la fin justifier Thésée?</l>
+          <l>Et, vous mettant au rang du reste des mortels,</l>
+          <l>Vous a-t-elle forcé d’encenser ses autels?</l>
+          <l>Aimeriez-vous, seigneur?</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Ami, qu’oses-tu dire?</l>
+          <l>Toi qui connais mon cœur depuis que je respire,</l>
+          <l>Des sentiments d’un cœur si fier, si dédaigneux,</l>
+          <l>Peux-tu me demander le désaveu honteux ?</l>
+          <l>C'est peu qu’avec son lait une mère amazone</l>
+          <l>M'ait fait sucer encor cet orgueil qui t’étonne;</l>
+          <l>Dans un âge plus mûr moi-même parvenu,</l>
+          <l>Je me suis applaudi, quand je me suis connu.</l>
+          <l>Attaché près de moi par un zèle sincère,</l>
+          <l>Tu me contais alors l’histoire de mon père.</l>
+          <l>Tu sais combien mon âme, attentive à ta voix,</l>
+          <l>S'échauffait au récit de ses nobles exploits;</l>
+          <l>Quand tu me dépeignais ce héros intrépide,</l>
+          <l>Consolant les mortels de l’absence d’Alcide;</l>
+          <l>Les monstres étouffés et les brigands punis</l>
+          <l>Procuste, Cercyon, et Scyron et Sinnys,</l>
+          <l>Et les os dispersés du géant d’Epidaure,</l>
+          <l>Et la Crète fumant du sang du Minotaure.</l>
+          <l>Mais quand tu récitais des faits moins glorieux,</l>
+          <l>Sa foi partout offerte, et reçue en cent lieux;</l>
+          <l>Hélène à ses parents dans Sparte dérobée ;</l>
+          <l>Salamine témoin des pleurs de Péribée;</l>
+          <l>Tant d’autres dont les noms lui sont même échappés,</l>
+          <l>Trop crédules esprits que sa flamme a trompés!</l>
+          <l>Ariane aux rochers contant ses injustices;</l>
+          <l>Phèdre enlevée enfin sous de meilleurs auspice</l>
+          <l>Tu sais comme, à regret, écoutant ce discours,</l>
+          <l>Je te pressais souvent d’en arrêter le cours.</l>
+          <l>Heureux, si j’avais pu ravir à la mémoire</l>
+          <l>Cette indigne moitié d’une aussi belle histoire.</l>
+          <l>Et moi-même, à mon tour, je me verrais lié?</l>
+          <l>Et les dieux jusque-là m’auraient humilié ?</l>
+          <l>Dans mes lâches soupirs, d’autant plus méprisable,</l>
+          <l>Qu'un long amas d’honneurs rend Thésée excusable;</l>
+          <l>Qu’aucuns monstres par moi domptés jusqu’aujourd’hui,</l>
+          <l>Ne m’ont acquis le droit de faillir comme lui.</l>
+          <l>Quand même ma fierté pourrait s’être adoucie,</l>
+          <l>Aurais-je pour vainqueur dû choisir Aricie?</l>
+          <l>Ne souviendrait-il plus à mes sens égarés</l>
+          <l>De l’obstacle éternel qui nous a séparés?</l>
+          <l>Mon père la réprouve, et, par des lois sévères,</l>
+          <l>Il défend de donner des neveux à ses frères :</l>
+          <l>D'une tige coupable il craint le rejeton.</l>
+          <l>Il veut avec leur sœur ensevelir leur nom</l>
+          <l>Et que, jusqu’au tombeau, soumise à sa tutelle,</l>
+          <l>Jamais les feux d’hymen ne s’allument pour elle.</l>
+          <l>Dois-je épouser ses droits contre un père irrité?</l>
+          <l>Donnerai-je l’exemple à la témérité ?</l>
+          <l>Et dans un fol amour ma jeunesse embarquée...</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>Ah ! seigneur, si votre heure est une fois marquée</l>
+          <l>Le ciel de nos raisons ne sait point s’informer!</l>
+          <l>Thésée ouvre vos yeux en voulant les fermer ;</l>
+          <l>Et sa haine, irritant une flamme rebelle,</l>
+          <l>Prête à son ennemie une grâce nouvelle.</l>
+          <l>Enfin, d’un chaste amour pourquoi vous effraye</l>
+          <l>S'il a quelque douceur, n’osez-vous l’essayer</l>
+          <l>En croirez-vous toujours un farouche scrupule ?</l>
+          <l>Craint-on de s’égarer sur les traces d’Hercule ?</l>
+          <l>Quels courages Vénus n’a-t-elle pas domptés ?</l>
+          <l>Vous-même, où seriez-vous, vous qui la combattez,</l>
+          <l>Si toujours Antiope à ses lois opposée</l>
+          <l>D'une pudique ardeur n’eût brûlé pour Thésée?</l>
+          <l>Mais que sert d’affecter un superbe discours?</l>
+          <l>Avouez-le, tout change ; et, depuis quelques jours,</l>
+          <l>On vous voit moins souvent, orgueilleux et sauvage,</l>
+          <l>Tantôt faire voler un char sur le rivage;</l>
+          <l>Tantôt, savant dans l’art par Neptune inventé,</l>
+          <l>Rendre docile au frein un coursier indompté.</l>
+          <l>Les forêts de nos cris moins souvent retentissent.</l>
+          <l>Chargés d’un feu secret vos yeux s’appesantissent.</l>
+          <l>Il n’en faut point douter, vous aimez, vous brûlez,</l>
+          <l>Vous périssez d’un mal que vous dissimulez.</l>
+          <l>La charmante Aricie a-t-elle su vous plaire?</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>Théramène, je pars, et vais chercher mon père.</l></sp>
+          <sp who="theramene"><speaker>THÉRAMENE</speaker>
+          <l>Ne verrez-vous point Phèdre avant que de partir,</l>
+          <l>Seigneur?</l></sp>
+          <sp who="hippolyte"><speaker>HIPPOLYTE</speaker>
+          <l>C’est mon dessein ; tu peux l’en avertir.</l>
+          <l>Voyons-la, puisqu’ainsi mon devoir me l’ordonne.</l></sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

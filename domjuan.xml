@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dom Juan</title>
+        <author key="Molière"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>ENS de Lyon</edition>
+        <respStmt>
+          <name>Yasmine Ricca</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ENS de Lyon</publisher>
+        <date when="2021"/>
+        <idno>Domjuan.odt</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Dégénérescence. Fin de siècle, le mysticisme. L’égotisme, le réalisme, le vingtième
+          siècle</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1894"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+    
+
+      <div>
+        <head>DOM JUAN</head>
+        <p>Liste des personnages</p>
+        <castList>
+          <castItem xml:id="sganarelle">SGANARELLE</castItem>
+          <castItem xml:id="gusman">Gusman</castItem>
+          <castItem xml:id="domjuan">Dom Juam</castItem>
+        </castList>
+      </div>
+      <div type="act">
+        <head>ACTE I</head>
+        <div type="scene">
+          <head>SCENE I</head>
+          <stage>Sganarelle, Gusman</stage>
+          <p rend="noindent">SGANARELLE</p>
+          <p>Ne voyez-vous pas</p>
+          <p>bien, dès qu’on en prend, de quelle manière obli¬</p>
+          <p>geante on en use avec tout le monde, et comme</p>
+          <p>on est ravi d’en donner à droit et à gauche, par¬</p>
+          <p>tout où l’on se trouve? On n’attend pas même</p>
+          <p>qu’on en demande, et l’on court au-devant du</p>
+          <p>souhait des gens : tant il est vrai que le tabac</p>
+          <p>inspire des sentiments d’honneur et de vertu à</p>
+          <p>tous ceux qui en prennent. Mais c’est assez de</p>
+          <p>cette matière; reprenons un peu notre discours.</p>
+          <p>Si bien donc, cher Gusman, que Done Elvire, ta</p>
+          <p>maîtresse, surprise de notre départ, s’est mise en</p>
+          <p>campagne après nous, et son cœur, que mon</p>
+          <p>maître a su toucher trop fortement, n’a pu vivre,</p>
+          <p>dis-tu, sans le venir chercher ici. Veux-tu qu’entre</p>
+          <p>nous je te dise ma pensée? J'ai peur qu’elle ne</p>
+          <p>soit mal payée de son amour, que son voyage en</p>
+          <p>cette ville produise peu de fruit, et que vous eus¬</p>
+          <p>siez autant gagné à ne bouger de là.</p>
+          <sp who="gusman"><speaker>GUSMAN.</speaker>
+            <p>Et la raison encore? Dis-moi, je te prie, Sgana¬</p>
+            <p>narelle, qui peut t’inspirer une peur d’un si mau¬</p>
+            <p>vais augure. Ton maître t’a-t-il ouvert son cœur</p>
+            <p>là-dessus, et t’a-t-il dit qu’il eût pour nous quel¬</p>
+            <p>que froideur qui l’ait obligé à partir?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Non pas; mais, à vue de pays, je connois à peu</p>
+            <p>près le train des choses, et, sans qu’il m’ait encore</p>
+            <p>rien dit, je gagerois presque que l’affaire va là. Je</p>
+            <p>pourrois peut-être me tromper, mais enfin, sur de</p>
+            <p>tels sujets, l’expérience m’a pu donner quelques</p>
+            <p>lumières.</p></sp>
+          <sp who="gusman"><speaker>GUSMAN.</speaker>
+            <p>Quoi! ce départ si peu prévu seroit une infidé¬</p>
+            <p>lité de Dom Juan? Il pourroit faire cette injure aux</p>
+            <p>chastes feux de Done Elvire?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Non, c’est qu’il est jeune encore, et qu’il n’a</p>
+            <p>pas le courage...</p></sp>
+          <sp who="gusman"><speaker>GUSMAN.</speaker>
+            <p>Un homme de sa qualité feroit une action si</p>
+            <p>lâche?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Eh! oui. Sa qualité! la raison en est belle, et</p>
+            <p>c’est par là qu’il s’empêcheroit des choses!</p></sp>
+          <sp who="gusman"><speaker>GUSMAN.</speaker>
+            <p>Mais les saints nœuds du mariage le tiennent</p>
+            <p>engagé.</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Eh! mon pauvre Gusman, mon ami, tu ne sais</p>
+            <p>pas encore, crois-moi, quel homme est Dom Juan.</p></sp>
+          <sp who="gusman"><speaker>GUSMAN.</speaker>
+            <p>Je ne sais pas, de vrai, quel homme il peut être,</p>
+            <p>s’il faut qu’il nous ait fait cette perfidie; et je ne</p>
+            <p>comprends point comme, après tant d’amour et</p>
+            <p>tant d’impatience témoignée, tant d’hommages</p>
+            <p>pressants, de vœux, de soupirs et de larmes, tant</p>
+            <p>de lettres passionnées, de protestations ardentes</p>
+            <p>et de serments réitérés, tant de transports enfin et</p>
+            <p>tant d’emportements, qu’il a fait paroître, jusqu’à</p>
+            <p>forcer, dans sa passion, l’obstacle sacré d’un con¬</p>
+            <p>vent pour mettre Done Elvire en sa puissance; je</p>
+            <p>ne comprends pas, dis-je, comme après tout cela</p>
+            <p>il auroit le cœur de pouvoir manquer à sa parole.</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Je n’ai pas grande peine à le comprendre, moi,</p>
+            <p>et, si tu connoissois le pèlerin, tu trouverois la</p>
+            <p>chose assez facile pour lui. Je ne dis pas qu’il ait</p>
+            <p>changé de sentiments pour Done Elvire, je n’en</p>
+            <p>ai point de certitude encore : tu sais que, par son</p>
+            <p>ordre, je partis avant lui, et, depuis son arrivée, il</p>
+            <p>ne m’a point entretenu; mais, par précaution, je</p>
+            <p>t’apprends (inter nos) que tu vois en Dom Juan,</p>
+            <p>mon maître, le plus grand scélérat que la terre ait</p>
+            <p>jamais porté, un enragé, un chien, un diable, un</p>
+            <p>Turc, un hérétique, qui ne croit ni ciel, ni enfer,</p>
+            <p>ni loup-garou, qui passe cette vie en véritable bête</p>
+            <p>brute, un pourceau d’Epicure, un vrai Sardana¬</p>
+            <p>pale, qui ferme l’oreille à toutes les remontrances</p>
+            <p>qu’on lui peut faire, et traite de billevesées tout</p>
+            <p>ce que nous croyons. Tu me dis qu’il a épousé ta</p>
+            <p>maîtresse . crois qu’il auroit plus fait pour sa pas¬</p>
+            <p>sion, et qu’avec elle il auroit encore épousé toi,</p>
+            <p>son chien et son chat. Un mariage ne lui coûte</p>
+            <p>rien à contracter; il ne se sert point d’autres</p>
+            <p>pièges pour attraper les belles, et c’est un épou¬</p>
+            <p>seur à toutes mains : dame, demoiselle, bour¬</p>
+            <p>geoise, paysanne, il ne trouve rien de trop chaud</p>
+            <p>ni de trop froid pour lui; et, si je te disois le nom</p>
+            <p>de toutes celles qu’il a épousées en divers lieux, ce</p>
+            <p>seroit un chapitre à durer jusques au soir. Tu de¬</p>
+            <p>meures surpris et changes de couleur à ce discours;</p>
+            <p>ce n’est là qu’une ébauche du personnage, et,</p>
+            <p>pour en achever le portrait, il faudroit bien d’au¬</p>
+            <p>tres coups de pinceau. Suffit qu’il faut que le cour¬</p>
+            <p>roux du Ciel l’accable quelque jour, qu’il me vau¬</p>
+            <p>droit bien mieux d’être au diable que d’être à lui,</p>
+            <p>et qu’il me fait voir tant d’horreurs que je souhai¬</p>
+            <p>terois qu’il fût déjà je ne sais où. Mais un grand</p>
+            <p>seigneur méchant homme est une terrible chose.</p>
+            <p>Il faut que je lui sois fidèle en dépit que j’en aie;</p>
+            <p>la crainte en moi fait l’office du zèle, bride mes</p>
+            <p>sentiments, et me réduit d’applaudir bien souvent</p>
+            <p>à ce que mon âme déteste. Le voilà qui vient se</p>
+            <p>promener dans ce palais . séparons-nous. Ecoute</p>
+            <p>au moins, je t’ai fait cette considence avec fran¬</p>
+            <p>chise, et cela m’est sorti un peu bien vite de la</p>
+            <p>bouche, mais, s’il falloit qu’il en vint quelque chose</p>
+            <p>à ses oreilles, je dirois hautement que tu aurois</p>
+            <p>menti.</p></sp>
+        </div>
+        <div type="scene">
+          <head>SCENE II</head>
+          <stage>DOM JUAN, SGANARELLE.</stage>
+          <sp who="domjuan"><speaker>DOM JUAN.</speaker>
+            <p>Quel homme te parloit là? Il a bien l’air, te me</p>
+            <p>semble, du bon Gusman de Done Elvire?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>C'est quelque chose aussi à peu près de cela.</p></sp>
+          <sp who="domjuan"><speaker>DOM JUAN.</speaker>
+            <p>Quoi! c’est lui?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Lui-même.</p></sp>
+          <sp who="domjuan"><speaker>DOM JUAN.</speaker>
+            <p>Et depuis quand est-il en cette ville?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>D'hier au soir.</p></sp>
+          <sp who="domjuan"><speaker>DOM JUAN.</speaker>
+            <p>Et quel sujet l’amène?</p></sp>
+          <sp who="sganarelle"><speaker>SGANARELLE.</speaker>
+            <p>Je crois que vous jugez assez ce qui le peut</p>
+            <p>inquiéter.</p></sp>
+          <sp who="domjuan"><speaker>DOM JUAN.</speaker>
+            <p>Notre départ, sans doute?</p></sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

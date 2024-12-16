@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Misanthrope</title>
+        <author key="Molière"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>ENS de Lyon</edition>
+        <respStmt>
+          <name>Ilona Lohezic</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ENS de Lyon</publisher>
+        <date when="2021"/>
+        <idno>misanthrope.odt</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>théâtre</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1666"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>LE MISANTHROPE.</head>
+        <p>Les personages</p>
+        <castList>
+          <castItem xml:id="alceste">ALCESTE, ami de Célimène</castItem>
+          <castItem xml:id="philinte">PHILINTE, ami d’Alceste</castItem>
+          <castItem>ORONTE, amant de Célimène</castItem>
+          <castItem>CELIMENE</castItem>
+          <castItem>ELIANTE, cousine de Célimène</castItem>
+          <castItem>ARSINOE, amie de Célimène</castItem>
+          <castItem>ACASTE, marquis</castItem>
+          <castItem>CLITANDRE, marquis</castItem>
+          <castItem>BASQUE, valet de Célimène</castItem>
+          <castItem>UN GARDE de la maréchaussée de France</castItem>
+          <castItem>DUBOIS, valet d’Alceste</castItem>
+        </castList>
+      </div>
+      <div type="act">
+        <head>ACTE PREMIER.</head>
+        <div type="scene">
+          <head>SCENE I.</head>
+          <stage>PHILINTE, ALCESTE.</stage>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Qu'est-ce donc? Qu'avez-vous?</p></sp>
+          <sp who="alceste"><speaker>ALCESTE, <stage>assis</stage>.</speaker>
+            <p>Laissez-moi, je vous prie.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>quelle bizarrerie.…</p>
+            <p>Mais encor, dites-moi,</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Laissez-moi là, vous dis-je, et courez vous cacher.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Mais on entend les gens au moins sans se fâcher.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Moi, je veux me fâcher, et ne veux point entendre.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE</speaker>
+            <p>Dans vos brusques chagrins je ne puis vous comprendre,</p>
+            <p>Et, quoique amis enfin, je suis tout des premiers.…</p></sp>
+          <sp who="alceste"><speaker>ALCESTE, <stage>se levant brusquement</stage>.</speaker>
+            <p>Moi, votre ami? Rayez cela de vos papiers.</p>
+            <p>J'ai fait jusques ici profession de l’être,</p>
+            <p>Mais, après ce qu’en vous je viens de voir paroître,</p>
+            <p>Je vous déclare net que je ne le suis plus,</p>
+            <p>Et ne veux nulle place en des cœurs corrompus.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Je suis donc bien coupable, Alceste, à votre compte?</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Allez, vous devriez mourir de pure honte;</p>
+            <p>Une telle action ne sauroit s’excuser,</p>
+            <p>Et tout homme d’honneur s’en doit scandaliser.</p>
+            <p>Je vous vois accabler un homme de caresses,</p>
+            <p>Et témoigner pour lui les dernières tendresse</p>
+            <p>De protestations, d’offres, et de serments,</p>
+            <p>Vous chargez la fureur de vos embrassements</p>
+            <p>Et, quand je vous demande après quel est cet homme</p>
+            <p>A peine pouvez-vous dire comme il se nomme;</p>
+            <p>Votre chaleur pour lui tombe en vous séparant,</p>
+            <p>Et vous me le traitez, à moi, d’indifférent.</p>
+            <p>Morbleu! c’est une chose indigne, lâche, infâme,</p>
+            <p>De s’abaisser ainsi, jusqu’à trahir son âme;</p>
+            <p>Et si, par un malheur, j en avois fait autant,</p>
+            <p>Je mirois, de regret, pendre tout à l’instant.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Je ne vois pas, pour moi, que le cas soit pendable;</p>
+            <p>Et je vous supplierai d’avoir pour agréable</p>
+            <p>Que je me fasse un peu grâce sur votre arrêt,</p>
+            <p>Et ne me pende pas pour cela, s’il vous plaît.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Que la plaisanterie est de mauvaise grâce !</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Mais sérieusement que voulez-vous qu’on fasse?</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Je veux qu’on soit sincère, et qu’en homme d’honneur</p>
+            <p>On ne lâche aucun mot qui ne parte du cœur.</p></sp>
+          <sp who="philinte"><speaker>PIIILINTE.</speaker>
+            <p>Lorsqu’un homme vous vient embrasser avec joie,</p>
+            <p>Il faut bien le payer de la même monnoie,</p>
+            <p>Répondre comme on peut à ses empressements,</p>
+            <p>Et rendre offre pour offre, et serments pour serments.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Non, je ne puis souffrir cette lâche méthode</p>
+            <p>Qu'affectent la plupart de vos gens à la mode</p>
+            <p>Et je ne hais rien tant que les contorsions</p>
+            <p>De tous ces grands faiseurs de protestations,</p>
+            <p>Ces affables donneurs d’embrassades frivoles,</p>
+            <p>Ces obligeants diseurs d’inutiles paroles,</p>
+            <p>Qui de civilités avec tous font combat,</p>
+            <p>Et traitent du même air l’honnête homme et le fat.</p>
+            <p>Quel avantage a-t-on qu’un homme vous caresse,</p>
+            <p>Vous jure amitié, foi, zèle, estime, tendresse,</p>
+            <p>Et vous fasse de vous un éloge éclatant,</p>
+            <p>Lorsqu’au premier faquin il court en faire autant?</p>
+            <p>Non, non, il n’est point d’âme un peu bien située</p>
+            <p>Qui veuille d’une estime ainsi prostituée,</p>
+            <p>Et la plus glorieuse a des régals peu chers,</p>
+            <p>Dès qu’on voit qu’on nous mêle avec tout l’univers.</p>
+            <p>Sur quelque préférence une estime se fonde,</p>
+            <p>Et c’est n’estimer rien qu’estimer tout le monde.</p>
+            <p>Puisque vous y donnez, dans ces vices du temps,</p>
+            <p>Morbleu ! vous n’êtes pas pour être de mes gens ;</p>
+            <p>Je refuse d’un cœur la vaste complaisance</p>
+            <p>Qui ne fait de mérite aucune différence</p>
+            <p>Je veux qu’on me distingue, et, pour le trancher net,</p>
+            <p>L'ami du genre humain n’est point du tout mon fait.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Mais, quand on est du monde, il faut bien que l’on rende</p>
+            <p>Quelques dehors civils que l’usage demande.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Non, vous dis-je, on devroit châtier sans pitié</p>
+            <p>Ce commerce honteux de semblants d’amitié.</p>
+            <p>Je veux que l’on soit homme, et qu’en toute rencontre</p>
+            <p>Le fond de notre cœur dans nos discours se montre,</p>
+            <p>Que ce soit lui qui parle, et que nos sentiments</p>
+            <p>Ne se masquent jamais sous de vains compliments.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Il est bien des endroits où la pleine franchise</p>
+            <p>Deviendroit ridicule, et seroit peu permise ;</p>
+            <p>Et parfois, n’en déplaise à votre austère honneur,</p>
+            <p>Il est bon de cacher ce qu’on a dans le cour.</p>
+            <p>Seroit-il à propos, et de la bienséance,</p>
+            <p>De dire à mille gens tout ce que d’eux on pense?</p>
+            <p>Et, quand on a quelqu’un qu’on hait ou qui déplaît,</p>
+            <p>Lui doit-on déclarer la chose comme elle est?</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Oui.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Quoi! vous iriez dire à la vieille Emilie</p>
+            <p>Qu'à son âge il sied mal de faire la jolie,</p>
+            <p>Et que le blanc qu’elle a scandalise chacun?</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Sans doute.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>A Dorilas, qu’il est trop importun;</p>
+            <p>Et qu’il n’est, à la cour, oreille qu’il ne lasse</p>
+            <p>A conter sa bravoure et l’éclat de sa race?</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Fort bien.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Vous vous moquez.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Je ne me moque point ;</p>
+            <p>Et je vais n’épargner personne sur ce point.</p>
+            <p>Mes yeux sont trop blessés, et la cour et ville</p>
+            <p>Ne m offrent rien qu’objets à m’échauffer la bile;</p>
+            <p>J'entre en une humeur noire, en un chagrin profond,</p>
+            <p>Quand je vois vivre entre eux les hommes comme ils font;</p>
+            <p>Je ne trouve partout que lâche flatterie,</p>
+            <p>Qu'injustice, intérêt, trahison, fourberie;</p>
+            <p>Je n’y puis plus tenir, j’enrage; et mon dessein</p>
+            <p>Est de rompre en visière à tout le genre humain.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Ce chagrin philosophe est un peu trop sauvage.</p>
+            <p>Je ris des noirs accès où je vous envisage,</p>
+            <p>Et crois voir en nous deux, sous mêmes soins nourris,</p>
+            <p>Ces deux frères que peint l’Ecole des Maris,</p>
+            <p>Dont….</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Mon Dieu ! laissons là vos comparaisons fades.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Non : tout de bon, quittez toutes ces incartades.</p>
+            <p>Le monde par vos soins ne se changera pas :</p>
+            <p>Et, puisque la franchise a pour vous tant d’appas,</p>
+            <p>Je vous dirai tout franc que cette maladie,</p>
+            <p>Partout où vous allez donne la comédie;</p>
+            <p>Et qu’un si grand courroux contre les mœurs du temps</p>
+            <p>Vous tourne en ridicule auprès de bien des gens.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Tant mieux, morbleu! tant mieux, c’est ce queje demande</p>
+            <p>Ce m’est un fort bon signe, et ma joie en est grande.</p>
+            <p>Tous les hommes me sont à tel point odieux,</p>
+            <p>Que je serois fâché d’être sage à leurs yeux.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Vous voulez un grand mal à la nature humaine.</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Oui, j’ai conçu pour elle une effroyable haine.</p></sp>
+          <sp who="philinte"><speaker>PHILINTE.</speaker>
+            <p>Tous les pauvres mortels, sans nulle exception,</p>
+            <p>Seront enveloppés dans cette aversion.</p>
+            <p>Encore en est-il bien, dans le siècle où nous sommes.…</p></sp>
+          <sp who="alceste"><speaker>ALCESTE.</speaker>
+            <p>Non, elle est générale, et je hais tous les hommes;</p>
+            <p>Les uns, parce qu’ils sont méchants et malfaisants,</p>
+            <p>Et les autres, pour être aux méchants complaisants,</p>
+            <p>Et n’avoir pas pour eux ces haines vigoureuses</p>
+            <p>Que doit donner le vice aux âmes vertueuses.</p>
+            <p>De cette complaisance on voit l’injuste excès,</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cinna</title>
+        <author key="Corneille"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>ENS de Lyon</edition>
+        <respStmt>
+          <name>Titouan Pellegrino</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ENS de Lyon</publisher>
+        <date when="2021"/>
+        <idno>{filename}</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Dégénérescence. Fin de siècle, le mysticisme. L’égotisme, le réalisme, le vingtième
+          siècle</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1641"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div>
+        <head>CINNA.</head>
+        <p rend="noindent">PERSONNAGES</p>
+        <castList>
+          <castItem xml:id="CINNA">CINNA<roleDesc>,fils d’une fille de Pompée, chef de la
+              conjuration contre Auguste.</roleDesc></castItem>
+          <castItem xml:id="ÆMILIE">ÆMILIE<roleDesc>, fille de C. Toranius, tuteur d’Auguste, et
+              proscrit par lui durant le Triumvirat.</roleDesc></castItem>
+          <castItem xml:id="FULVIE">FULVIE<roleDesc>, confidente d’Aemilie.</roleDesc></castItem>
+        </castList>
+        <stage>La scène est à Rome</stage>
+      </div>
+      <div type="act">
+        <head>
+          <lb/>ACTE PREMIER.</head>
+        <div type="scene">
+          <head>
+            <lb/>SCÉNE I.</head>
+          <sp who="ÆMILIE"><speaker>
+              <lb/>ÆMILIE</speaker>
+            <p rend="left">
+              <lb/>Impatients désirs d’une illustre vengeance <lb/>Dont la mort de mon père a formé
+              la naissance, <lb/>Enfants impétueux de mon ressentiment <lb/>Que ma douleur séduite
+              embrasse aveuglément, <lb/>Vous prenez sur mon âme un trop puissant empire;
+              <lb/>Durant quelques moments souffrez que je respire, <lb/>Et que je considère, en
+              l’état où je suis, <lb/>Et ce que je hasarde, et ce que je poursuis. <lb/>Quand je
+              regarde Auguste au milieu de sa gloire, <lb/>Et que vous reprochez à ma triste mémoire <lb/>
+              <lb/>CINNA</p>
+            <p rend="left noindent">
+              <lb/>Que par sa propre main mon père massacré <lb/>Du trône où je le vois fait le
+              premier degré; <lb/>Quand vous me présentez cette sanglante image, <lb/>La cause de ma
+              haine et l’effet de sa rage, <lb/>Je m’abandonne toute à vos ardents transports,
+              <lb/>Et crois, pour une mort, lui devoir mille morts. <lb/>Au milieu toutefois d’une
+              fureur si juste, <lb/>J'aime encor plus Cinna que je ne hais Auguste, <lb/>Et je sens
+              refroidir ce bouillant mouvement <lb/>Quand il faut, pour le suivre, exposer mon
+              amant. <lb/>Oui, Cinna, contre moi moi-même je m’irrite, <lb/>Quand je songe aux
+              dangers où je te précipite. <lb/>Quoique pour me servir tu n’appréhendes rien, <lb/>Te
+              demander du sang, c’est exposer le tien : <lb/>D'une si haute place on n’abat point de
+              têtes <lb/>Sans attirer sur soi mille et mille tempêtes; <lb/>L'issue en est douteuse,
+              et le péril certain : <lb/>Un ami déloyal peut trahir ton dessein ; <lb/>L'ordre mal
+              concerté, l’occasion mal prise, <lb/>Peuvent sur son auteur renverser l’entreprise,
+              <lb/>Tourner sur toi les coups dont tu le veux frapper; <lb/>Dans sa ruine même il
+              peut t’envelopper <lb/>Et, quoi qu’en ma faveur ton amour exécute, <lb/>Il te peut, en
+              tombant, écraser sous sa chute. <lb/>Ah ! cesse de courir à ce mortel danger ; <lb/>Te
+              perdre en me vengeant, ce n’est pas me venger. <lb/>Un cœur est trop cruel quand il
+              trouve des charmes <lb/>Aux douceurs que corrompt l’amertume des larmes ; <lb/>Et l’on
+              doit mettre au rang des plus cuisants malheurs <lb/>La mort d’un ennemi qui coûte tant
+              de pleurs. <lb/>Mais peut-on en verser alors qu’on venge un père ? <lb/>Est-il perte à
+              ce prix qui ne semble légère ? <lb/>Et, quand son assassin tombe sous notre effort,
+              <lb/>Doit-on considérer ce que coûte sa mort? <lb/>Cessez, vaines frayeurs, cessez,
+              lâches tendresses, <lb/>De Jeter dans mon cœur vos indignes faiblesses; <lb/>Et toi
+              qui les produis par tes soins superflus, <lb/>Amour, sers mon devoir, et ne le combats
+              plus ! <lb/>Lui céder, c’est ta gloire; et le vaincre, ta honte ; <lb/>Montre-toi
+              généreux, souffrant qu’il te surmonte ; <lb/>Plus tu lui donneras, plus il te va
+              donner, <lb/>Et ne triomphera que pour te couronner.</p></sp>
+        </div>
+        <div type="scene">
+          <head>
+            <lb/>SCÉNE II.</head>
+          <stage>
+            <lb/>ÆMILIE, FULVIE.</stage>
+          <sp who="ÆMILIE"><speaker>
+              <lb/>ÆMILIE</speaker>
+            <p rend="left noindent">
+              <lb/>Je l’ai juré, Fulvie, et je le jure encore, <lb/>Quoique j’aime Cinna, quoique
+              mon cœur l’adore, <lb/>S'il me veut posséder, Auguste doit périr <lb/>Sa tête est le
+              seul prix dont il peut m’acquérir. <lb/>Je lui prescris la loi que mon devoir
+              m’impose.</p></sp>
+          <sp who="FULVIE"><speaker>
+              <lb/>FULVIE</speaker>
+            <p rend="left noindent">
+              <lb/>Elle a pour la blâmer une trop juste cause; <lb/>Par un si grand dessein vous
+              vous faites juger <lb/>Digne sang de celui que vous voulez venger. <lb/>Mais, encore
+              une fois, souffrez que je vous die <lb/>Qu'une si juste ardeur devrait être attiédie :
+              <lb/>Auguste chaque jour, à force de bienfaits, <lb/>Semble assez réparer les maux
+              qu’il vous a faits, <lb/>Sa faveur envers vous parait si déclarée, <lb/>Que vous êtes
+              chez lui la plus considérée; <lb/>Et de ses courtisans souvent les plus heureux
+              <lb/>Vous pressent à genoux de lui parler pour eux.</p></sp>
+          <sp who="ÆMILIE"><speaker>
+              <lb/>ÆMILIE</speaker>
+            <p rend="left noindent">
+              <lb/>Toute cette faveur ne me rend pas mon père <lb/>Et, de quelque façon que l’on me
+              considère. <lb/>Abondante en richesse, ou puissante en crédit, <lb/>Je demeure
+              toujours la fille d’un proscrit¬</p></sp>
+          <sp who="CINNA"><speaker>
+              <lb/>CINNA</speaker>
+            <p rend="left noindent">
+              <lb/>Les bienfaits ne font pas toujours ce que tu penses <lb/>D'une main odieuse, ils
+              tiennent lieu d’offenses : <lb/>Plus nous en prodiguons à qui nous peut haïr,
+              <lb/>Plus d’armes nous donnons à qui nous veut trahir. <lb/>Il m’en fait chaque jour
+              sans changer mon courage; <lb/>Je suis ce que j’étais, et je puis davantage, <lb/>Et
+              des mêmes présents qu’il verse dans mes mains <lb/>J'achète contre lui les esprits des
+              Romains; <lb/>Je recevrais de lui la place de Livie <lb/>Comme un moyen plus sûr
+              d’attenter à sa vie. <lb/>Pour qui venge son père il n’est point de forfaits, <lb/>Et
+              c’est vendre son sang que se rendre aux bienfaits.</p></sp>
+          <sp who="FULVIE"><speaker>
+              <lb/>FULVIE</speaker>
+            <p rend="left noindent">
+              <lb/>Quel besoin toutefois de passer pour ingrate ? <lb/>Ne pouvez-vous haïr sans que
+              la haine éclate ? <lb/>Assez d’autres sans vous n’ont pas mis en oubli <lb/>Par
+              quelles cruautés son trône est établi; <lb/>Tant de braves Romains, tant d’illustres
+              victimes, <lb/>Qu'à son ambition ont immolés ses crimes, <lb/>Laissent à leurs enfants
+              d’assez vives douleurs <lb/>Pour venger votre perte en vengeant leurs malheurs.
+              <lb/>Beaucoup l’ont entrepris, mille autres vont les suivre : <lb/>Qui vit haï de tous
+              ne saurait longtemps vivre : <lb/>Remettez a leurs bras les communs intérêts, <lb/>Et
+              n’aidez leurs desseins que par des vœux secrets.</p></sp>
+          <sp who="ÆMILIE"><speaker>
+              <lb/>ÆMILIE</speaker>
+            <p rend="left noindent">
+              <lb/>Quoi ! je le haïrai sans tâcher de lui nuire? <lb/>J'attendrai du hasard qu’il
+              ose le détruire ? <lb/>Et je satisferai des devoirs si pressants <lb/>Par une haine
+              obscure et des vœux impuissants ? <lb/>Sa perte, que je veux, me deviendrait amère.
+              <lb/>Si quelqu’un l’immolait à d’autres qu’à mon père. <lb/>Et tu verrais mes pleurs
+              couler pour son trépas, <lb/>Qui, le faisant périr, ne me vengerait pas. <lb/>C'est
+              une lâcheté que de remettre à d’autres <lb/>Les intérêts publics qui s’attachent aux
+              nôtres. <lb/>Joignons à la douceur de venger nos parents <lb/>La gloire qu’on remporte
+              à punir les tyrans, <lb/>Et faisons publier par toute l’Italie : <lb/>« La liberté de
+              Rome est l’œuvre d’Æmilie <lb/>« On a touché son âme, et son cœur s’est épris;
+              <lb/>« Mais elle n’a donné son amour qu’à ce prix. »</p></sp>
+          <sp who="FULVIE"><speaker>
+              <lb/>FULVIE</speaker>
+            <p rend="left noindent">
+              <lb/>Votre amour à ce prix n’est qu’un présent funeste <lb/>Qui porte à votre amant sa
+              perte manifeste. <lb/>Pensez mieux, Æmilie, à quoi vous l’exposez, <lb/>Combien à cet
+              écueil se sont déjà brisés ; <lb/>Ne vous aveuglez pas quand sa mort est
+            visible.</p></sp>
+          <sp who="ÆMILIE"><speaker>
+              <lb/>ÆMILIE</speaker>
+            <p rend="left noindent">
+              <lb/>Ah! tu sais me frapper par où je suis sensible. <lb/>Quand je songe aux dangers
+              que je lui fais courir, <lb/>La crainte de sa mort me fait déjà mourir; <lb/>Mon
+              esprit en désordre à soi-même s’oppose; <lb/>Je veux et ne veux pas, je m’emporte et
+              je n’ose; <lb/>Et mon devoir, confus, languissant, étonné, <lb/>Cède aux rébellions de
+              mon cœur mutiné. <lb/>Tout beau, ma passion, deviens un peu moins forte; <lb/>Tu vois
+              bien des hasards, ils sont grands, mais n’importe: <lb/>Cinna n’est pas perdu pour
+              être hasardé. <lb/>De quelques légions qu’Auguste soit gardé, <lb/>Quelque soin qu’il
+              se donne et quelque ordre qu’il tienne, <lb/>Qui méprise la vie est maître de la
+              sienne : <lb/>Plus le péril est grand, plus doux en est le fruit; <lb/>La vertu nous y
+              jette, et la gloire le suit : <lb/>Quoi qu’il en soit, qu’Auguste ou que Cinna
+              périsse.</p></sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

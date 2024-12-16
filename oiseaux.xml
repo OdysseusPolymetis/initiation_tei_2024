@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Oiseaux</title>
+        <author key="Aristophane, Eugène Talbot"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>ENS de Lyon</edition>
+        <respStmt>
+          <name>Solange Chea</name>
+          <resp>Transcription</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ENS de Lyon</publisher>
+        <date when="2021"/>
+        <idno>oiseaux.odt</idno>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Grec, théâtre, nouvelle traduction</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1897"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>PERSONNAGES DU DRAME</p>
+      <castList>
+        <castItem xml:id="evelpides">EVELPIDÉS.</castItem>
+        <castItem xml:id="pisthetaeros">PISTHÉTAEROS.</castItem>
+        <castItem xml:id="leroitelet">LE ROITELET, serviteur de la Huppe.</castItem>
+        <castItem>LA HUPPE.</castItem>
+        <castItem>CHOEUR D’OISEAUX.</castItem>
+        <castItem>LE PHOENIKOPTÉRE.</castItem>
+        <castItem>HÉRAUTS.</castItem>
+        <castItem>UN PRÉTRE.</castItem>
+        <castItem>UN POÉTE.</castItem>
+        <castItem>UN DISEUR D’ORACLES.</castItem>
+        <castItem>LE ROSSIGNOL.</castItem>
+        <castItem>PROKNÉ.</castItem>
+        <castItem>MÉTôN, géomètre.</castItem>
+        <castItem>UN INSPECTEUR.</castItem>
+        <castItem>UN VENDEUR DE DÉCRETS.</castItem>
+        <castItem>MESSAGERS.</castItem>
+        <castItem>IRIS.</castItem>
+        <castItem>UN PARRICIDE</castItem>
+        <castItem>KINÉSIAS, poète dithyrambique.</castItem>
+        <castItem>UN SYKOPHANTE.</castItem>
+        <castItem>PROMÉTHEUS.</castItem>
+        <castItem>POSÉIDON.</castItem>
+        <castItem>UN TRIBALLE.</castItem>
+        <castItem>HÉRAKLES</castItem>
+        <castItem>UN ESCLAVE DE PISTHÉTAEROS.</castItem>
+        <castItem>XANTHIAS.</castItem>
+        <castItem>MANODOROS OU MANÉS</castItem>
+        <castItem>Esclaves, personnages muets.</castItem>
+      </castList>
+      <stage>La scène se passe dans un endroit saurage, rocailleux, au fond d’une forêt.</stage>
+      <div>
+        <head>LES OISEAUX</head>
+        <sp who="evelpides"><speaker>EVELPIDES<stage>, au geai.</stage></speaker>
+          <p>Est-ce tout droit que tu me dis d’aller, du côté où l’on voit cet arbre?</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS<stage>, tenant une corneille.</stage></speaker>
+          <p>La peste te crève ! La voilà qui me croasse de revenir en arrière !</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Pourquoi, malheureux, sautillons-nous de haut en bas? Nous nous tuons à chercher ainsi
+            notre route de côté et d’autre.</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Je me suis fié, pour mon malheur, à cette corneille, qui m’a fait parcourir deux mille
+            stades de chemin.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Et moi je me suis fié, pour mon infortune, à ce geai, qui m’a rongé les ongles des
+            doigts.</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>En quel endroit de la terre sommes-nous ? je n’en sais rien.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>D'ici, retrouverais-tu ta patrie, toi?</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Non, de par Zeus! pas plus qu’Exèkestidès.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Malheur!</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Allons, mon ami, suis cette route.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Certes, il nous a joué un vilain tour, cet oiseleur du marché à la volaille, ce fou de
+            Philokratès, en me disant que ces deux guides seuls, parmi les oiseaux, nous diraient où
+            est Tèreus, la huppe, changé en oiseau. Il nous a vendu une obole ce geai, fils de
+            Tharrélidès, et trois oboles cette corneille qui, l’un et l’autre, ne savent rien que
+            mordre. Eh bien! qu’as-tu, maintenant, à ouvrir le bec? Est-ce que tu vas encore nous
+            mener de façon à tomber des rochers? Ici, il n’y a pas de route.</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Et ici, de par Zeus! pas le moindre sentier.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>La corneille ne dit donc rien au sujet de la route? Pas de croassements?</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Pas plus maintenant que tout à l’heure.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Enfin, que dit-elle de la route ?</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Que veux-tu qu’elle dise, sinon qu’en les rongeant, elle me mangera les
+          doigts?</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>N’est-il pas étrange, assurément, que, avec notre désir d’aller aux corbeaux et nos
+            préparatifs achevés, nous ne puissions ensuite trouver la route? En effet, ô vous,
+            hommes qui assistez à cet entretien, nous sommes malades du mal contraire à celui de
+            Sakas. N’étant pas citoyen, il veut l’être à toute force, et nous qui sommes d’une tribu
+            et d’une famille honorables, citoyens comme nos concitoyens, sans en être chassés par
+            personne, nous prenons des deux pieds notre vol loin de notre patrie, non point par
+            haine pour cette ville qui n’est pas seulement grande et heureusement douée par la
+            nature, mais ouverte à tous pour y dépenser leur avoir. En effet, les cigales ne
+            chantent qu’un ou deux mois sur les jeunes figuiers, tandis que les Athéniens chantent
+            toute leur vie l’air des procès. Voilà pourquoi nous avons entrepris ce voyage, et
+            comment, pourvus d’une corbeille, d’une cruche et de myrte, nous errons tous deux à la
+            recherche d’un lieu tranquille, où nous puissions nous établir et séjourner. Nous nous
+            dirigeons du côté de Tèreus la huppe, pour le prier de nous dire si, dans la région où
+            il a porté son vol, il a vu quelque part cette sorte de ville.</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Holà! hé!</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDES.</speaker>
+          <p>Qu'est-ce donc?</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Depuis longtemps la corneille m’indique quelque chose là-haut.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Et ce geai aussi ouvre le bec comme pour me montrer quelque chose. Il n’est pas
+            possible qu’il n’y ait pas par là des oiseaux. Nous le saurons tout de suite en faisant
+            du bruit.</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Alors, sais-tu ce qu’il faut faire ? Heurte ta jambe contre cette roche.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Et toi ta tête; ce sera un double bruit.</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Alors, toi, une pierre; prends et frappe.</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Très bien, si cela te plaît. Esclave, esclave!</p></sp>
+        <sp who="pisthetaeros"><speaker>PISTHÉTAEROS.</speaker>
+          <p>Que dis-tu? Au lieu de la Huppe, tu appelles : « Esclave! » En place d’«Esclave ! » il
+            te fallait crier: « Epopoi!»</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Epopoi! Veux-tu que je frappe encore une fois? Epopoi!</p></sp>
+        <sp who="leroitelet"><speaker>LE ROITELET.</speaker>
+          <p>Quels sont ces gens? Qui est-ce qui crie en appelant mon maître?</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Apollón sauveur, quelle ouverture de bec!</p></sp>
+        <sp who="leroitelet"><speaker>LE ROITELET.</speaker>
+          <p>Malheur à moi! ce sont deux oiseleurs!</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Voilà un être affreux et d’une vilaine conversation!</p></sp>
+        <sp who="leroitelet"><speaker>LE ROITELET.</speaker>
+          <p>Allez tous deux à la malheure!</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Mais nous ne sommes pas des hommes!</p></sp>
+        <sp who="leroitelet"><speaker>LE ROITELET.</speaker>
+          <p>Qu'êtes-vous donc?</p></sp>
+        <sp who="evelpides"><speaker>EVELPIDÉS.</speaker>
+          <p>Je suis le Peureux, oiseau de Libyè.</p></sp>
+      </div>
+    </body>
+  </text>
+</TEI>
